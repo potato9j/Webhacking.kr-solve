@@ -17,11 +17,11 @@ function ck(){
 
 ### [자바스크립트 소스코드 분석]
 1. ul변수에 `document.URL` 할당
-    - `document.URL` : 문서의 URL을 반환하는 속성
+    - document.URL : 문서의 URL을 반환하는 속성
 2. ul변수에 `ul.indexOf(".kr")` 할당
-    - `indexOf()` : 문자열에서 원하는 문자열을 검색하여 찾거나, 배열에서 원하는 특정 배열값의 존재 여부 등을 확인
+    - indexOf() : 문자열에서 원하는 문자열을 검색하여 찾거나, 배열에서 원하는 특정 배열값의 존재 여부 등을 확인
 3. 최종적으로 `ul*30`으로 ul변수를 구성
-4. `ul!=pw.input_pwd.value`라면 Wrong출력
+4. ul!=pw.input_pwd.value라면 Wrong출력
 
 <br>
 
