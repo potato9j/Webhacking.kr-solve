@@ -15,7 +15,7 @@ function ck(){
 
 <br>
 
-### [자바스크립트 소스코드 분석]
+### [소스코드 분석]
 1. ul변수에 `document.URL` 할당
     - document.URL : 문서의 URL을 반환하는 속성
 2. ul변수에 `ul.indexOf(".kr")` 할당
