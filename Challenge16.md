@@ -32,8 +32,8 @@ function kk(x,y){
 ### [자바스크립트 소스코드 분석]
 
 1. k(1,1)함수로 별의 처음 위치를 정해줌
-2. document.body.innerHTML을 이용해서 별을 추가로 입력하는 시스템
-3. onkeypress를 통해 키가 눌렸을때 눌린 키를 event.keycode를 이용하여 아스키코드값으로 바꿔 매개변수로 mv()함수가 실행됨
+2. `document.body.innerHTML`을 이용해서 별을 추가로 입력하는 시스템
+3. `onkeypress`를 통해 키가 눌렸을때 눌린 키를 `event.keycode`를 이용하여 아스키코드값으로 바꿔 매개변수로 `mv()`함수가 실행됨
 4. 주어진 아스키코드 (100, 97, 119, 115, 124)
     * 100=d
     * 97=a
