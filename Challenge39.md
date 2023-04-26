@@ -36,9 +36,11 @@
 ### [소스코드 분석]
 
 * sqp쿼리에서 where구문이 true가 되어서 1이 리턴되면 해결되는 문제
+<br>
 
 * `select 1 from table` : 해당 table의 개수만큼 1리턴
 * `select 1 from table where()` : 해당 table에서 조건을 만족시키는 행이 있다면 1리턴
+<br>
 
 * 문제 : `id='{$_POST['id']}"` 여는 쿼터는 있지만 닫는 쿼터는 없음
 * 해결 : 쿼터(')만 닫아주면 됨 
