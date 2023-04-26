@@ -70,10 +70,14 @@ setTimeout("answer(0)",1000);  //1000ms후 answer(0) 함수를 실행
 
 * **해결법**
     * `aview.innerHTML=x.responseText;` 
-    * `if(x.reposeText=="") avues.innerHTML="?";`
+    * `if(x.responseText=="") aview.innerHTML="?";`
         * 첫부분 aview때문에 문자가 하나씩만 나타나고, 두번째 if절때문에 마지막에 ?이 출력되는 방식
         * 위 문제를 해결하기 위해서는 : 이전에 나타나는 문자가 사라지지 않게 =이 아니라 +=을 입력해야함
     
+    <br>
+    
+    * `aview.innerHTML+=x.responseTet;`
+    * `if(x.responseText=="") aview.innerHTML+="?";`
     
     
     
