@@ -28,7 +28,7 @@
 
 * `addslashes()` : 문자열 안의 특수문자가 잘 인식되도록 역슬래시를 추가해주는 함수
 * `stripslashes()` : 반대로 역글래시를 제거해주는 함수
-* `order by id desc : id를 내림차순으로 정렬
+* `order by id desc` : id를 내림차순으로 정렬
 
 <br>
 
