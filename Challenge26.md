@@ -2,17 +2,17 @@
 
 ```javascript
 <?php
-  if(preg_match("/admin/",$_GET['id'])) { echo"no!"; exit(); }
-  $_GET['id'] = urldecode($_GET['id']);
-  if($_GET['id'] == "admin"){
-    solve(26);
+  if(preg_match("/admin/",$_GET['id'])) { echo"no!"; exit(); }  //get방식의 id값에 admin이 있으면 "no!"출력 후 종료
+  $_GET['id'] = urldecode($_GET['id']);  //id를 url디코딩해서 저장
+  if($_GET['id'] == "admin"){  //id값이 admin이면 
+    solve(26);  //문제해결
   }
 ?>
 ```
 
 <br>
 
-### [자바스크립트 소스코드 분석]
+### [소스코드 분석]
 
 1. GET형식으로 받은 id값이 admin이면 풀리는 문제
 2. if조건문 위에, `preg_match`함수로 admin이란 값을 **필터링**하고 있음. (==admin이란 값을 넣어줄 수 없음)
