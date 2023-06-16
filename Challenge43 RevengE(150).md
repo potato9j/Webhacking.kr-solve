@@ -47,7 +47,7 @@ You must upload webshell and cat <b>/flag</b>
         * 비슷한 툴로 WireShark가 있음
 * Burp Suite `Content-Type: inage/png` (이것을 image/png로 변조하고 forward하여 보내준다)
 * 파일의 MIME타입이 text/로 시작하거나 application/octet-stream인지 확인
-FLAG{V2hhdCBkaWQgeW91IGV4cGVjdD8=}
+* 정답 : FLAG{V2hhdCBkaWQgeW91IGV4cGVjdD8=}
 
 
 
