@@ -21,3 +21,7 @@
 
     * 기본주소창 : https://webhacking.kr/challenge/js-2/
     * 해결법 : 기본 주소에 `?getFlag` 입력
+
+<br>
+
+* 정답 : https://webhacking.kr/challenge/js-2/?getFlag
