@@ -81,6 +81,10 @@ if __name__ == "__main__":
 ?>
 `
 
+<br>
+
+* 정답 : FLAG{Mama_i_know_how_toctou_works}
+
 
   
   
