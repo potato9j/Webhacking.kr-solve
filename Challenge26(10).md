@@ -25,4 +25,6 @@
     그 값이 `urldecode()`함수에 의해 admin이 됨
 6. %61%64%6D%69%6E -(url인코딩)-> `%2561%2564%256D%2569%256E`
 
+<br>
+
 * 정답(주소창입력) : https://webhacking.kr/challenge/web-11/?id=%2561%2564%256D%2569%256E
